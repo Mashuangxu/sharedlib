@@ -17,7 +17,3 @@ class Dog implements Mammal {
         println("Dog is walking.")
     }
 }
-
-Dog dog = new Dog()
-dog.eat()  // 输出 "Dog is eating."
-dog.walk() // 输出 "Dog is walking."
