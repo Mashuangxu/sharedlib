@@ -1,7 +1,8 @@
 package org.foo
 
-class Bar implements Serializable {
-    def call(String message) {
-        echo("Hello")
-    }
+class Example { 
+   static void sum(int a,int b = 5) { 
+      int c = a+b; 
+      println(c); 
+   } 
 }
