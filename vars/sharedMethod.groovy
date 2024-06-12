@@ -1,4 +1,4 @@
-import org.utils 
+import org.utils.Dog
 
 def call(String name) {
     // 使用 Groovy 类
