@@ -2,6 +2,6 @@ package org.foo
 
 class Bar implements Serializable {
     def call(String message) {
-        sh 'echo yes'
+        return message
     }
 }
